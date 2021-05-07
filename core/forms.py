@@ -12,6 +12,7 @@ class AfterForm(forms.ModelForm):
         model = PaperAfter
         fields = '__all__'
 
+
 class AbstractForm(forms.ModelForm):
     class Meta:
         model = AbstractInfo
